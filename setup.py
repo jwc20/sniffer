@@ -16,12 +16,12 @@ setup(
     install_requires=[
         'colorama',
         'python-termstyle',
-        'nose',
+        'pynose',
     ],
     extras_require = {
         'Growl': ['gntp==0.7'],
         'LibNotify': ['py-notify==0.3.1'],
-        'OSX': ['MacFSEvents==0.2.8'],
+        'OSX': ['MacFSEvents==0.8.4'],
         #'Windows': ['pywin'], # not part of PYPI
         'Linux': ['pyinotify==0.9.0'],
     },
